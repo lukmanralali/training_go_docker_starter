@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  golang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: golang_training_basic
+    volumes:
+      - './:/go/src/api:rw'
+    tty: true
