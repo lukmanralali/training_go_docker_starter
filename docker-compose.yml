@@ -6,5 +6,5 @@ services:
       dockerfile: Dockerfile
     container_name: golang_training_basic
     volumes:
-      - './:/go/src/api:rw'
+      - './:/go/src/my_application_name:rw'
     tty: true
