@@ -2,13 +2,12 @@ package main
 
 func main() {
 
-	// PrimitiveDeclaration()
-	// StructDeclaration()
+	PrimitiveDeclaration()
+	StructDeclaration()
 
-	// PrimitiveAssignment()
-	// StructAssignment()
-
+	PrimitiveAssignment()
+	StructAssignment()
+	
 	PrimitiveEffect()
-	// StructEffect()
-
+	StructEffect()
 }
