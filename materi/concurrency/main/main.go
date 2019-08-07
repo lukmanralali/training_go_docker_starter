@@ -6,11 +6,11 @@ func main() {
     // sampleOne := &BasicGoRoutine{}
     // sampleSyncOne := &WaitGroupSync{}
     // sampleSyncTwo := &WaitGroupSyncMutex{}
-    sampleSyncThree := &WaitGroupSyncChannel{}
+    // sampleSyncThree := &WaitGroupSyncChannel{}
     // sampleOne.RunExample()
     // sampleSyncOne.SampleSync()
     // sampleSyncTwo.SampleSync()
-    sampleSyncThree.SampleSync()
+    // sampleSyncThree.SampleSync()
 }
 
 func GetRandomInteger(min int,max int) int {
