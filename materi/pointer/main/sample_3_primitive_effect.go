@@ -3,9 +3,9 @@ import "fmt"
 import "math/rand"
 
 func PrimitiveEffect(){
-	// notPointerSampleEffect()
+	notPointerSampleEffect()
 	pointerSampleEffect()
-	// anotherPointerSampleEffect()
+	anotherPointerSampleEffect()
 }
 
 func notPointerSampleEffect(){
